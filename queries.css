@@ -1,0 +1,173 @@
+@media (max-width: 769px) {
+  .header-link-group {
+    width: 45%;
+  }
+
+  .showcase {
+    max-width: 60%;
+  }
+
+  .values {
+    max-width: 100%;
+    flex-direction: column;
+    flex-basis: 0;
+  }
+
+  .values-single {
+    width: 70%;
+  }
+
+  .banner {
+    max-width: 85vw;
+    flex-direction: column;
+  }
+
+  .review {
+    position: relative;
+  }
+  .review-quote {
+    top: -55px;
+    left: -15px;
+    position: absolute;
+  }
+
+  .review-box {
+    flex-direction: column;
+  }
+
+  .review-box-single {
+    margin-bottom: 40px;
+  }
+
+  .review-box-single-profile img {
+    width: 7%;
+  }
+
+  .form {
+    max-width: 80%;
+  }
+
+  .form h3 {
+    font-size: 20px;
+  }
+
+  .form p {
+    max-width: 100%;
+    line-height: 1.5;
+  }
+
+  .form-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form-input input {
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  ::placeholder {
+    padding-left: 10px;
+  }
+
+  .form-input button {
+    width: 100%;
+  }
+
+  .footer-logo img {
+    width: 200px;
+  }
+
+  .footer-cols {
+    flex-direction: column;
+  }
+
+  .f1 {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .footer-contacts-1 {
+    margin-bottom: 0px;
+  }
+
+  .f2 img {
+    transform: translateY(12px);
+  }
+
+  .f3,
+  .f4 {
+    margin-top: 50px;
+  }
+
+  .f5 {
+    margin-top: 40px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .logo img {
+    width: 80px;
+  }
+
+  .header-link-group {
+    width: 55%;
+  }
+
+  .showcase {
+    max-width: 95%;
+  }
+
+  .showcase h1 {
+    font-weight: 400;
+  }
+
+  .showcase h2 {
+    max-width: 80%;
+  }
+
+  .values-single {
+    width: 90%;
+  }
+
+  .banner {
+    max-width: 85vw;
+    flex-direction: column;
+  }
+
+  .banner-img,
+  .banner-text {
+    flex: 0 0 calc(50% - 0rem);
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .banner-text-br {
+    display: inline;
+    margin-left: 5px;
+  }
+
+  .banner-text h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .banner-text p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .review-quote {
+    top: -55px;
+    left: -45px;
+    position: absolute;
+  }
+
+  .review-box-single-profile img {
+    width: 12%;
+  }
+}
