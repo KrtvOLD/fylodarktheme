@@ -1,3 +1,32 @@
+@media (max-width: 1025px) {
+  .bg-img {
+    top: 40%;
+  }
+
+  .bg-img:after {
+    height: 2400px;
+  }
+
+  .review {
+    position: relative;
+  }
+
+  .review-quote {
+    top: -55px;
+    left: -15px;
+    position: absolute;
+  }
+
+  .review-box {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1010px) {
+  .bg-img {
+    top: 70%;
+  }
+}
+
 @media (max-width: 769px) {
   .header-link-group {
     width: 45%;
@@ -5,6 +34,14 @@
 
   .showcase {
     max-width: 60%;
+  }
+
+  .bg-img {
+    top: 70%;
+  }
+
+  .bg-img:after {
+    height: 2800px;
   }
 
   .values {
@@ -116,6 +153,22 @@
     width: 55%;
   }
 
+  .bg-img {
+    top: 60%;
+  }
+
+  .bg-img:after {
+    height: 2850px;
+  }
+
+  .bg-desktop {
+    display: none;
+  }
+
+  .bg-mobile {
+    display: initial;
+  }
+
   .showcase {
     max-width: 95%;
   }
@@ -169,5 +222,15 @@
 
   .review-box-single-profile img {
     width: 12%;
+  }
+}
+
+@media (max-width: 365px) {
+  .bg-img {
+    top: 70%;
+  }
+
+  .bg-img:after {
+    height: 2950px;
   }
 }
